@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.0.9"
+VERSION="1.0.9.1"
 
 cd `dirname $0`
 cd ..
@@ -9,7 +9,8 @@ find . -name .DS_Store -ls -exec rm {} \;
 
 rm -r temp
 mkdir -p temp/var/mobile/Library/SBSettings/
-cp -r wifiSMS/build/Release-iphoneos/WifiSMS/ temp/var/mobile/Library/WifiSMS/
+# WifiSMS/wifiSMS/DerivedData/WifiSMS/Build/Products/Debug-iphoneos/WifiSMS.app
+cp -r wifiSMS/DerivedData/WifiSMS/Build/Products/Debug-iphoneos/WifiSMS.app/ temp/var/mobile/Library/WifiSMS/
 cp -r Build/cydia/WifiSMS/DEBIAN/ temp/DEBIAN/
 sed -e "s/^Version: VERSION$/Version: ${VERSION}/" Build/cydia/WifiSMS/DEBIAN/control > temp/DEBIAN/control
 cp -r SBS-Toggle/Commands/ temp/var/mobile/Library/SBSettings/Commands/

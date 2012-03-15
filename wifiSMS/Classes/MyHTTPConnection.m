@@ -295,6 +295,7 @@ static void readF(sqlite3_context *context, int argc, sqlite3_value **argv) { re
 
             } else {
                 //4.0
+                /*
                 id ct = CTTelephonyCenterGetDefault();
                 void* address = CKSMSAddressCreateWithString(pid); 
                 
@@ -307,7 +308,7 @@ static void readF(sqlite3_context *context, int argc, sqlite3_value **argv) { re
                 
                 void *msg_to_send = _CKSMSRecordCreateWithGroupAndAssociation(NULL, address, msg, group, 0);	
                 CKSMSRecordSend(ct, msg_to_send);
-                
+                */
             }
             
             

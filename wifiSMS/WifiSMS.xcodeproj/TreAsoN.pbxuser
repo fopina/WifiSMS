@@ -1437,13 +1437,6 @@
 		vrLen = 1889;
 		vrLoc = 447;
 	};
-	5FC3189913FF79A000A08C0F /* CTMessage.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessage.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessage.h;
-		sourceTree = "<absolute>";
-	};
 	5FC3189A13FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5FC3189B13FF79A000A08C0F /* CTMessageCenter.h */;
@@ -1453,13 +1446,6 @@
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 0;
-	};
-	5FC3189B13FF79A000A08C0F /* CTMessageCenter.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessageCenter.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessageCenter.h;
-		sourceTree = "<absolute>";
 	};
 	5FC3189C13FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1471,13 +1457,6 @@
 		vrLen = 1131;
 		vrLoc = 0;
 	};
-	5FC3189D13FF79A000A08C0F /* CTMessagePart.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessagePart.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessagePart.h;
-		sourceTree = "<absolute>";
-	};
 	5FC3189E13FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5FC3189F13FF79A000A08C0F /* CTMessageStatus.h */;
@@ -1487,13 +1466,6 @@
 		rType = 0;
 		vrLen = 692;
 		vrLoc = 0;
-	};
-	5FC3189F13FF79A000A08C0F /* CTMessageStatus.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessageStatus.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessageStatus.h;
-		sourceTree = "<absolute>";
 	};
 	5FC318A013FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1505,13 +1477,6 @@
 		vrLen = 313;
 		vrLoc = 0;
 	};
-	5FC318A113FF79A000A08C0F /* CTMmsEncoder.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMmsEncoder.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMmsEncoder.h;
-		sourceTree = "<absolute>";
-	};
 	5FC318A213FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5FC318A313FF79A000A08C0F /* CTPhoneNumber.h */;
@@ -1522,20 +1487,6 @@
 		vrLen = 748;
 		vrLoc = 0;
 	};
-	5FC318A313FF79A000A08C0F /* CTPhoneNumber.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTPhoneNumber.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTPhoneNumber.h;
-		sourceTree = "<absolute>";
-	};
-	5FC318A513FF79A000A08C0F /* CTMessageCenter.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessageCenter.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessageCenter.h;
-		sourceTree = "<absolute>";
-	};
 	5FC318A613FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5FC318A713FF79A000A08C0F /* CTEmailAddress.h */;
@@ -1545,27 +1496,6 @@
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 0;
-	};
-	5FC318A713FF79A000A08C0F /* CTEmailAddress.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTEmailAddress.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTEmailAddress.h;
-		sourceTree = "<absolute>";
-	};
-	5FC318AB13FF79A000A08C0F /* CTEmailAddress.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTEmailAddress.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTEmailAddress.h;
-		sourceTree = "<absolute>";
-	};
-	5FC318AD13FF79A000A08C0F /* CTMessage.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = CTMessage.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/PrivateFrameworks/CoreTelephony.framework/Headers/CTMessage.h;
-		sourceTree = "<absolute>";
 	};
 	5FC318AE13FF79A000A08C0F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
